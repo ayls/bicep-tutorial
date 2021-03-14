@@ -1,4 +1,4 @@
-This repo contains script crated by following [Bicep Tutorial](https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md).
+This repo contains scripts created by following [Bicep Tutorial](https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md).
 
 Make sure you have [setup the tooling](https://github.com/Azure/bicep) before trying these scripts.
 
