@@ -2,6 +2,8 @@ This repo contains scripts created by following [Bicep Tutorial](https://github.
 
 Make sure you have [setup the tooling](https://github.com/Azure/bicep) before trying these scripts.
 
+The Bicep version used for these script was 0.3.1. There might be breaking versions in newer versions of the CLI.
+
 # Create storage account
 
 This examples assumes you have already created my-test-bicep resource group.
