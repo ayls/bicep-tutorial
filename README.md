@@ -4,13 +4,15 @@ Make sure you have [setup the tooling](https://github.com/Azure/bicep) before tr
 
 # Create storage account
 
+This examples assumes you have already created my-test-bicep resource group.
+
 ```
 az deployment group create -f ./createstorageaccount.bicep -g my-test-bicep 
 ```
 
 # Update existing storage examples
 
-These examples assume you have already created my-test-bicep resource group and alesstorage001 and alesstorage002 storage accounts
+These examples assume you have already created my-test-bicep resource group and alesstorage001 and alesstorage002 storage accounts.
 
 ```
 az deployment group create -f ./updatestorageaccount1.bicep -g my-test-bicep --parameters storageAccountName=alesstorage001
