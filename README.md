@@ -1,4 +1,4 @@
-This repo contains script crated by following [Bicep Tutorial](https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md)
+This repo contains script crated by following [Bicep Tutorial](https://github.com/Azure/bicep/blob/main/docs/tutorial/01-simple-template.md).
 
 Make sure you have [setup the tooling](https://github.com/Azure/bicep) before trying these scripts.
 
@@ -28,6 +28,6 @@ az deployment group create -f ./updatestorageaccount2.bicep -g my-test-bicep --p
 
 [README.md](/decompile-example/README.md)
 
-# Build Bicep
+# Build ARM Template
 
 [README.md](/build-example/README.md)
