@@ -14,7 +14,7 @@ az deployment group create -f ./createstorageaccount.bicep -g my-test-bicep
 
 # Update existing storage examples
 
-These examples assume you have already created my-test-bicep resource group and alesstorage001 and alesstorage002 storage accounts.
+These examples assume you have already created my-test-bicep resource group and alesstorage001 and alesstorage002 storage accounts in that group.
 
 ```
 az deployment group create -f ./updatestorageaccount1.bicep -g my-test-bicep --parameters storageAccountName=alesstorage001
